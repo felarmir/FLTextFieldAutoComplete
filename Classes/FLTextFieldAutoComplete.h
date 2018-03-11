@@ -19,6 +19,6 @@ typedef NSArray* (^SetDataBlock)(NSString* inputValue);
 @property IBInspectable UIColor *listBackgroundColor;
 
 - (void)setStringsDataArray:(NSArray<NSString*>*)data;
-- (void)loadData:(SetDataBlock)dataBlock;
+- (void)setDataByBlock:(SetDataBlock)dataBlock;
 
 @end

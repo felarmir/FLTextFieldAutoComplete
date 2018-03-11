@@ -32,21 +32,27 @@
 	[super awakeFromNib];
 	self.delegate = self;
 	
-	firstBaselineView = [[[UIApplication sharedApplication] keyWindow] viewForFirstBaselineLayout];
-	UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapForEndEditing)];
+	firstBaselineView = [[[[UIApplication sharedApplication] keyWindow] rootViewController] view];
+	UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapForEndEditing:)];
+	[tap setCancelsTouchesInView:NO];
 	[firstBaselineView addGestureRecognizer:tap];
 }
 
-- (void)tapForEndEditing {
-	[self endEditing:YES];
-	[self hideAndDestroyAutocompleteList];
+- (void)tapForEndEditing:(UITapGestureRecognizer*)sender {
+	UIView* view = sender.view;
+	CGPoint locationPoint = [sender locationInView:view];
+	
+	if(![NSStringFromClass([[view hitTest:locationPoint withEvent:nil] class]) isEqualToString:@"UITableViewCellContentView"]) {
+		[self endEditing:YES];
+		[self hideAndDestroyAutocompleteList];
+	}
 }
 
 - (void)setStringsDataArray:(NSArray<NSString*>*)data {
 	self.data = data;
 }
 
-- (void)loadData:(SetDataBlock)dataBlock {
+- (void)setDataByBlock:(SetDataBlock)dataBlock {
 	loadDataBlock = dataBlock;
 }
 
@@ -77,17 +83,9 @@
 																	attribute:NSLayoutAttributeHeight
 																   multiplier:1.0
 																	 constant:0];
-	
-	
+		
 	[firstBaselineView addConstraint:autocompleteListHeightConstraint];
-	
-	[firstBaselineView addConstraint:[NSLayoutConstraint constraintWithItem:self
-																  attribute:NSLayoutAttributeWidth
-																  relatedBy:NSLayoutRelationEqual
-																	 toItem:self.autocompleteList
-																  attribute:NSLayoutAttributeWidth
-																 multiplier:1.0
-																   constant:0]];
+
 	
 	[firstBaselineView addConstraint: [NSLayoutConstraint constraintWithItem:self.autocompleteList
 																   attribute:NSLayoutAttributeTop
@@ -103,7 +101,16 @@
 																	  toItem:self
 																   attribute:NSLayoutAttributeTrailing
 																  multiplier:1.0
-																	constant:0]];
+																	constant:-3]];
+	
+	[firstBaselineView addConstraint: [NSLayoutConstraint constraintWithItem:self.autocompleteList
+																   attribute:NSLayoutAttributeLeading
+																   relatedBy:NSLayoutRelationEqual
+																	  toItem:self
+																   attribute:NSLayoutAttributeLeading
+																  multiplier:1.0
+																	constant:3]];
+	
 	
 	activeView = [[UIActivityIndicatorView alloc] init];
 	[activeView setTranslatesAutoresizingMaskIntoConstraints:NO];
@@ -112,20 +119,20 @@
 	
 	
 	[firstBaselineView addConstraint: [NSLayoutConstraint constraintWithItem:activeView
-																	   attribute:NSLayoutAttributeCenterX
-																	   relatedBy:NSLayoutRelationEqual
-																		  toItem:self.autocompleteList
-																	   attribute:NSLayoutAttributeCenterX
-																	  multiplier:1.0
-																		constant:0]];
+																   attribute:NSLayoutAttributeCenterX
+																   relatedBy:NSLayoutRelationEqual
+																	  toItem:self.autocompleteList
+																   attribute:NSLayoutAttributeCenterX
+																  multiplier:1.0
+																	constant:0]];
 	
 	[firstBaselineView addConstraint: [NSLayoutConstraint constraintWithItem:activeView
-																	   attribute:NSLayoutAttributeCenterY
-																	   relatedBy:NSLayoutRelationEqual
-																		  toItem:self.autocompleteList
-																	   attribute:NSLayoutAttributeCenterY
-																	  multiplier:1.0
-																		constant:0]];
+																   attribute:NSLayoutAttributeCenterY
+																   relatedBy:NSLayoutRelationEqual
+																	  toItem:self.autocompleteList
+																   attribute:NSLayoutAttributeCenterY
+																  multiplier:1.0
+																	constant:0]];
 
 	return YES;
 }
@@ -149,7 +156,7 @@
 				[activeView setHidden:YES];
 				[activeView stopAnimating];
 				[self setStringsDataArray:dataFromBlock];
-				[self showSortedAutocompleteList:inputText];
+				[self showSortedAutocompleteList:nil];
 			});
 			
 		});
@@ -160,18 +167,19 @@
 	return YES;
 }
 
-- (void)showSortedAutocompleteList:( NSString* )value {
-	NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF BEGINSWITH[c] %@", value];
-	self.sortedData = [self.data filteredArrayUsingPredicate:predicate];
+- (void)showSortedAutocompleteList:( NSString* _Nullable )value {
+	if (value != nil) {
+		NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF BEGINSWITH[c] %@", value];
+		self.sortedData = [self.data filteredArrayUsingPredicate:predicate];
+	} else {
+		self.sortedData = self.data;
+	}
+	
 	[self.autocompleteList reloadData];
 	autocompleteListHeightConstraint.constant = self.autocompleteList.contentSize.height;
 }
 
 #pragma mark UITableViewDataSource
-
--(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-	return 1;
-}
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 	return self.sortedData.count;
@@ -199,6 +207,7 @@
 	self.text = cell.textLabel.text;
 	[self hideAndDestroyAutocompleteList];
 }
+
 
 - (void)hideAndDestroyAutocompleteList {
 	[self.autocompleteList setHidden:YES];
