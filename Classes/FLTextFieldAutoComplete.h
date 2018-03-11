@@ -12,10 +12,26 @@ typedef NSArray* (^SetDataBlock)(NSString* inputValue);
 
 @interface FLTextFieldAutoComplete : UITextField
 
+
+/**
+ Autocomplete list table
+ */
 @property (strong, nonatomic) UITableView *autocompleteList;
 
+/**
+ Autocomplete list Text size
+ */
 @property IBInspectable NSInteger listTextFontSize;
+
+/**
+ Autocomplete list Text label color
+ */
 @property IBInspectable UIColor *listTextColor;
+
+
+/**
+  Autocomplete list background color
+ */
 @property IBInspectable UIColor *listBackgroundColor;
 
 
