@@ -83,7 +83,7 @@ Even though creating the autocomplete feature over a UITextField is not a big is
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/felarmir/FLTextFieldAutoComplete.git", :tag => "s.version" }
+  s.source       = { :git => "https://github.com/felarmir/FLTextFieldAutoComplete.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
