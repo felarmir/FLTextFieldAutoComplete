@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FLTextFieldAutoComplete"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "FLTextFieldAutoComplete extends UITextField allowing you to add the autocomplete feature in a really easy way."
 
   # This description is used to generate tags and improve search results.
