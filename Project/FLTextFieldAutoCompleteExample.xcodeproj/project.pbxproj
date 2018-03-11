@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AD62E7920551EEE00903D2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD62E7820551EEE00903D2D /* AppDelegate.m */; };
+		2AD62E7C20551EEF00903D2D /* ExampleUseInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD62E7B20551EEF00903D2D /* ExampleUseInView.m */; };
+		2AD62E7F20551EEF00903D2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD62E7D20551EEF00903D2D /* Main.storyboard */; };
+		2AD62E8120551EEF00903D2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD62E8020551EEF00903D2D /* Assets.xcassets */; };
+		2AD62E8420551EEF00903D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD62E8220551EEF00903D2D /* LaunchScreen.storyboard */; };
+		2AD62E8720551EEF00903D2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD62E8620551EEF00903D2D /* main.m */; };
+		2AD62E902055238400903D2D /* ContactInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD62E8F2055238400903D2D /* ContactInfoView.m */; };
+		514564011CAE56E381B28087 /* Pods_FLTextFieldAutoCompleteExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1956B697AA6C257E497425F4 /* Pods_FLTextFieldAutoCompleteExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1956B697AA6C257E497425F4 /* Pods_FLTextFieldAutoCompleteExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLTextFieldAutoCompleteExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD62E7420551EEE00903D2D /* FLTextFieldAutoCompleteExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLTextFieldAutoCompleteExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD62E7720551EEE00903D2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AD62E7820551EEE00903D2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AD62E7A20551EEE00903D2D /* ExampleUseInView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleUseInView.h; sourceTree = "<group>"; };
+		2AD62E7B20551EEF00903D2D /* ExampleUseInView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleUseInView.m; sourceTree = "<group>"; };
+		2AD62E7E20551EEF00903D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AD62E8020551EEF00903D2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AD62E8320551EEF00903D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AD62E8520551EEF00903D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AD62E8620551EEF00903D2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AD62E8E2055238400903D2D /* ContactInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactInfoView.h; sourceTree = "<group>"; };
+		2AD62E8F2055238400903D2D /* ContactInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactInfoView.m; sourceTree = "<group>"; };
+		768474476E175272B8B920B1 /* Pods-FLTextFieldAutoCompleteExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLTextFieldAutoCompleteExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLTextFieldAutoCompleteExample/Pods-FLTextFieldAutoCompleteExample.release.xcconfig"; sourceTree = "<group>"; };
+		F53510FA671EAC4692EA8597 /* Pods-FLTextFieldAutoCompleteExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLTextFieldAutoCompleteExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLTextFieldAutoCompleteExample/Pods-FLTextFieldAutoCompleteExample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AD62E7120551EEE00903D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514564011CAE56E381B28087 /* Pods_FLTextFieldAutoCompleteExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AD62E6B20551EEE00903D2D = {
+			isa = PBXGroup;
+			children = (
+				2AD62E7620551EEE00903D2D /* FLTextFieldAutoCompleteExample */,
+				2AD62E7520551EEE00903D2D /* Products */,
+				6DA95A8A9D4A315E8161436B /* Pods */,
+				A83CDF970DF02F12DA2E04B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AD62E7520551EEE00903D2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AD62E7420551EEE00903D2D /* FLTextFieldAutoCompleteExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AD62E7620551EEE00903D2D /* FLTextFieldAutoCompleteExample */ = {
+			isa = PBXGroup;
+			children = (
+				2AD62E8D2055229600903D2D /* Controllers */,
+				2AD62E7720551EEE00903D2D /* AppDelegate.h */,
+				2AD62E7820551EEE00903D2D /* AppDelegate.m */,
+				2AD62E7D20551EEF00903D2D /* Main.storyboard */,
+				2AD62E8020551EEF00903D2D /* Assets.xcassets */,
+				2AD62E8220551EEF00903D2D /* LaunchScreen.storyboard */,
+				2AD62E8520551EEF00903D2D /* Info.plist */,
+				2AD62E8620551EEF00903D2D /* main.m */,
+			);
+			path = FLTextFieldAutoCompleteExample;
+			sourceTree = "<group>";
+		};
+		2AD62E8D2055229600903D2D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2AD62E7A20551EEE00903D2D /* ExampleUseInView.h */,
+				2AD62E7B20551EEF00903D2D /* ExampleUseInView.m */,
+				2AD62E8E2055238400903D2D /* ContactInfoView.h */,
+				2AD62E8F2055238400903D2D /* ContactInfoView.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6DA95A8A9D4A315E8161436B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F53510FA671EAC4692EA8597 /* Pods-FLTextFieldAutoCompleteExample.debug.xcconfig */,
+				768474476E175272B8B920B1 /* Pods-FLTextFieldAutoCompleteExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A83CDF970DF02F12DA2E04B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1956B697AA6C257E497425F4 /* Pods_FLTextFieldAutoCompleteExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AD62E7320551EEE00903D2D /* FLTextFieldAutoCompleteExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD62E8A20551EEF00903D2D /* Build configuration list for PBXNativeTarget "FLTextFieldAutoCompleteExample" */;
+			buildPhases = (
+				66786BB17732E98F693FCD56 /* [CP] Check Pods Manifest.lock */,
+				2AD62E7020551EEE00903D2D /* Sources */,
+				2AD62E7120551EEE00903D2D /* Frameworks */,
+				2AD62E7220551EEE00903D2D /* Resources */,
+				42BBD24FC91A82157A9E0033 /* [CP] Embed Pods Frameworks */,
+				CC59FD878A6CA8AC0A690980 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLTextFieldAutoCompleteExample;
+			productName = FLTextFieldAutoCompleteExample;
+			productReference = 2AD62E7420551EEE00903D2D /* FLTextFieldAutoCompleteExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AD62E6C20551EEE00903D2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Denis Andreev";
+				TargetAttributes = {
+					2AD62E7320551EEE00903D2D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2AD62E6F20551EEE00903D2D /* Build configuration list for PBXProject "FLTextFieldAutoCompleteExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AD62E6B20551EEE00903D2D;
+			productRefGroup = 2AD62E7520551EEE00903D2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AD62E7320551EEE00903D2D /* FLTextFieldAutoCompleteExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AD62E7220551EEE00903D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD62E8420551EEF00903D2D /* LaunchScreen.storyboard in Resources */,
+				2AD62E8120551EEF00903D2D /* Assets.xcassets in Resources */,
+				2AD62E7F20551EEF00903D2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42BBD24FC91A82157A9E0033 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FLTextFieldAutoCompleteExample/Pods-FLTextFieldAutoCompleteExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FLTextFieldAutoComplete/FLTextFieldAutoComplete.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLTextFieldAutoComplete.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLTextFieldAutoCompleteExample/Pods-FLTextFieldAutoCompleteExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66786BB17732E98F693FCD56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FLTextFieldAutoCompleteExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC59FD878A6CA8AC0A690980 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLTextFieldAutoCompleteExample/Pods-FLTextFieldAutoCompleteExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AD62E7020551EEE00903D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD62E7C20551EEF00903D2D /* ExampleUseInView.m in Sources */,
+				2AD62E8720551EEF00903D2D /* main.m in Sources */,
+				2AD62E7920551EEE00903D2D /* AppDelegate.m in Sources */,
+				2AD62E902055238400903D2D /* ContactInfoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AD62E7D20551EEF00903D2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AD62E7E20551EEF00903D2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AD62E8220551EEF00903D2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AD62E8320551EEF00903D2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AD62E8820551EEF00903D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2AD62E8920551EEF00903D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AD62E8B20551EEF00903D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F53510FA671EAC4692EA8597 /* Pods-FLTextFieldAutoCompleteExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RXSVBYZYM;
+				INFOPLIST_FILE = FLTextFieldAutoCompleteExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.felarmir.FLTextFieldAutoCompleteExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AD62E8C20551EEF00903D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768474476E175272B8B920B1 /* Pods-FLTextFieldAutoCompleteExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RXSVBYZYM;
+				INFOPLIST_FILE = FLTextFieldAutoCompleteExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.felarmir.FLTextFieldAutoCompleteExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AD62E6F20551EEE00903D2D /* Build configuration list for PBXProject "FLTextFieldAutoCompleteExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD62E8820551EEF00903D2D /* Debug */,
+				2AD62E8920551EEF00903D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AD62E8A20551EEF00903D2D /* Build configuration list for PBXNativeTarget "FLTextFieldAutoCompleteExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD62E8B20551EEF00903D2D /* Debug */,
+				2AD62E8C20551EEF00903D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AD62E6C20551EEE00903D2D /* Project object */;
+}

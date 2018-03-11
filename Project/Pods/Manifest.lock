@@ -1,0 +1,16 @@
+PODS:
+  - FLTextFieldAutoComplete (0.0.1)
+
+DEPENDENCIES:
+  - FLTextFieldAutoComplete (from `../`)
+
+EXTERNAL SOURCES:
+  FLTextFieldAutoComplete:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FLTextFieldAutoComplete: 0aabe2689de00afa5a887cb90fc6cccb31673930
+
+PODFILE CHECKSUM: 99fb93b6f0e389bf6485639d5ccc7648eb865ff9
+
+COCOAPODS: 1.3.1

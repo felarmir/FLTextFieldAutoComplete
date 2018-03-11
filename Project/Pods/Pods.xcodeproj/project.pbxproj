@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046CD841AE41A651F0D0B8740D6798E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		065CED74D652D531624836A6D943AFBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		068120FA85581A3863D443AC6C29DB38 /* FLTextFieldAutoComplete.h in Headers */ = {isa = PBXBuildFile; fileRef = 99EE4D2B449ACAD31739228363660E0C /* FLTextFieldAutoComplete.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0686A0180B49BBC4D037F6CA0FD6C965 /* Pods-FLTextFieldAutoCompleteExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF123383EEE65DD86F7233ABA20D3FD /* Pods-FLTextFieldAutoCompleteExample-dummy.m */; };
+		312E8BF0EFB4CA01849A56A41190267C /* FLTextFieldAutoComplete.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4934C0FD7F28EF0AD07C25769F3176 /* FLTextFieldAutoComplete.m */; };
+		7F6A69DC62D98D0961463C88898C41F7 /* Pods-FLTextFieldAutoCompleteExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3DE3EBE5F93BBF0A6A3178E23E3B04 /* Pods-FLTextFieldAutoCompleteExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC9299D7143A7C22B0C6370418E5E802 /* FLTextFieldAutoComplete-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA119B4076CDAC0312BC07971822D2 /* FLTextFieldAutoComplete-dummy.m */; };
+		F3C5346566B34DCA2E258882EB8E77B6 /* FLTextFieldAutoComplete-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C202E61C66DC5E6F8E21D2C1D593021C /* FLTextFieldAutoComplete-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A491BBA19B7E05E01B0B9D2270312F17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F86878D3A728E7737A942810CFDDB80;
+			remoteInfo = FLTextFieldAutoComplete;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0024230D729F8943CB9807310708652A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B3DE3EBE5F93BBF0A6A3178E23E3B04 /* Pods-FLTextFieldAutoCompleteExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLTextFieldAutoCompleteExample-umbrella.h"; sourceTree = "<group>"; };
+		14B492B7E82CCD44DABFDF5A36C5F3E0 /* Pods-FLTextFieldAutoCompleteExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLTextFieldAutoCompleteExample.release.xcconfig"; sourceTree = "<group>"; };
+		1823BE0BEE45848BE5148AB611550C14 /* Pods-FLTextFieldAutoCompleteExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLTextFieldAutoCompleteExample.debug.xcconfig"; sourceTree = "<group>"; };
+		25D4381D9FFACECFF48C1DF4D435A502 /* Pods-FLTextFieldAutoCompleteExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLTextFieldAutoCompleteExample-frameworks.sh"; sourceTree = "<group>"; };
+		3BC931767840BEB902E490FA9897614A /* FLTextFieldAutoComplete.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLTextFieldAutoComplete.xcconfig; sourceTree = "<group>"; };
+		452130B183DDB43C18794FF897ED6A12 /* FLTextFieldAutoComplete.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FLTextFieldAutoComplete.modulemap; sourceTree = "<group>"; };
+		4E5D6CC7C4804451F3DF99642C0741AD /* Pods-FLTextFieldAutoCompleteExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLTextFieldAutoCompleteExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C82F00959D87D3DB656CA3A9C4F5DBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C3A5ED3F2EDA72F2A5F4DB6C63D523B /* Pods_FLTextFieldAutoCompleteExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FLTextFieldAutoCompleteExample.framework; path = "Pods-FLTextFieldAutoCompleteExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99EE4D2B449ACAD31739228363660E0C /* FLTextFieldAutoComplete.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLTextFieldAutoComplete.h; path = Classes/FLTextFieldAutoComplete.h; sourceTree = "<group>"; };
+		A8762D51AE891303B9C99F51071ADDC2 /* Pods-FLTextFieldAutoCompleteExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLTextFieldAutoCompleteExample-resources.sh"; sourceTree = "<group>"; };
+		AA7BAEE579FAFE8583284AED9F965DA4 /* Pods-FLTextFieldAutoCompleteExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FLTextFieldAutoCompleteExample.modulemap"; sourceTree = "<group>"; };
+		AF4934C0FD7F28EF0AD07C25769F3176 /* FLTextFieldAutoComplete.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLTextFieldAutoComplete.m; path = Classes/FLTextFieldAutoComplete.m; sourceTree = "<group>"; };
+		B992DFE098849E06E737478A41822A1B /* FLTextFieldAutoComplete-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLTextFieldAutoComplete-prefix.pch"; sourceTree = "<group>"; };
+		C202E61C66DC5E6F8E21D2C1D593021C /* FLTextFieldAutoComplete-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLTextFieldAutoComplete-umbrella.h"; sourceTree = "<group>"; };
+		DBF123383EEE65DD86F7233ABA20D3FD /* Pods-FLTextFieldAutoCompleteExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLTextFieldAutoCompleteExample-dummy.m"; sourceTree = "<group>"; };
+		E1FA119B4076CDAC0312BC07971822D2 /* FLTextFieldAutoComplete-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLTextFieldAutoComplete-dummy.m"; sourceTree = "<group>"; };
+		EE4BE9D90923D1C0FEAAD950D8F2934A /* Pods-FLTextFieldAutoCompleteExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLTextFieldAutoCompleteExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEF401D8E0F780B5C905C023E09AB44F /* FLTextFieldAutoComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLTextFieldAutoComplete.framework; path = FLTextFieldAutoComplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84EA58A2EEA67D9885A6D5C57C6B6E3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065CED74D652D531624836A6D943AFBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E816C26517AFDFFAAD9BC055E216BB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046CD841AE41A651F0D0B8740D6798E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112436FB06632AE371F372DC3EE21AEE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BFF1E9F7C09B9DBE6374013AE5D3EED /* Pods-FLTextFieldAutoCompleteExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1BFF1E9F7C09B9DBE6374013AE5D3EED /* Pods-FLTextFieldAutoCompleteExample */ = {
+			isa = PBXGroup;
+			children = (
+				0024230D729F8943CB9807310708652A /* Info.plist */,
+				AA7BAEE579FAFE8583284AED9F965DA4 /* Pods-FLTextFieldAutoCompleteExample.modulemap */,
+				4E5D6CC7C4804451F3DF99642C0741AD /* Pods-FLTextFieldAutoCompleteExample-acknowledgements.markdown */,
+				EE4BE9D90923D1C0FEAAD950D8F2934A /* Pods-FLTextFieldAutoCompleteExample-acknowledgements.plist */,
+				DBF123383EEE65DD86F7233ABA20D3FD /* Pods-FLTextFieldAutoCompleteExample-dummy.m */,
+				25D4381D9FFACECFF48C1DF4D435A502 /* Pods-FLTextFieldAutoCompleteExample-frameworks.sh */,
+				A8762D51AE891303B9C99F51071ADDC2 /* Pods-FLTextFieldAutoCompleteExample-resources.sh */,
+				0B3DE3EBE5F93BBF0A6A3178E23E3B04 /* Pods-FLTextFieldAutoCompleteExample-umbrella.h */,
+				1823BE0BEE45848BE5148AB611550C14 /* Pods-FLTextFieldAutoCompleteExample.debug.xcconfig */,
+				14B492B7E82CCD44DABFDF5A36C5F3E0 /* Pods-FLTextFieldAutoCompleteExample.release.xcconfig */,
+			);
+			name = "Pods-FLTextFieldAutoCompleteExample";
+			path = "Target Support Files/Pods-FLTextFieldAutoCompleteExample";
+			sourceTree = "<group>";
+		};
+		298AB98BFF4D969ECCCE84584574349B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA27ECEFFD1F3402C271A08C0ABA5FD1 /* FLTextFieldAutoComplete */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				298AB98BFF4D969ECCCE84584574349B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D125E7747D3282D0502504F1E4E23DD9 /* Products */,
+				112436FB06632AE371F372DC3EE21AEE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BA27ECEFFD1F3402C271A08C0ABA5FD1 /* FLTextFieldAutoComplete */ = {
+			isa = PBXGroup;
+			children = (
+				99EE4D2B449ACAD31739228363660E0C /* FLTextFieldAutoComplete.h */,
+				AF4934C0FD7F28EF0AD07C25769F3176 /* FLTextFieldAutoComplete.m */,
+				F7FDBD42C8ED7C7A61C15E674F00E330 /* Support Files */,
+			);
+			name = FLTextFieldAutoComplete;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D125E7747D3282D0502504F1E4E23DD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEF401D8E0F780B5C905C023E09AB44F /* FLTextFieldAutoComplete.framework */,
+				7C3A5ED3F2EDA72F2A5F4DB6C63D523B /* Pods_FLTextFieldAutoCompleteExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F7FDBD42C8ED7C7A61C15E674F00E330 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				452130B183DDB43C18794FF897ED6A12 /* FLTextFieldAutoComplete.modulemap */,
+				3BC931767840BEB902E490FA9897614A /* FLTextFieldAutoComplete.xcconfig */,
+				E1FA119B4076CDAC0312BC07971822D2 /* FLTextFieldAutoComplete-dummy.m */,
+				B992DFE098849E06E737478A41822A1B /* FLTextFieldAutoComplete-prefix.pch */,
+				C202E61C66DC5E6F8E21D2C1D593021C /* FLTextFieldAutoComplete-umbrella.h */,
+				5C82F00959D87D3DB656CA3A9C4F5DBE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Project/Pods/Target Support Files/FLTextFieldAutoComplete";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D9247F9CB3CD4E55BB8A115B2C2CB574 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C5346566B34DCA2E258882EB8E77B6 /* FLTextFieldAutoComplete-umbrella.h in Headers */,
+				068120FA85581A3863D443AC6C29DB38 /* FLTextFieldAutoComplete.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D55A3D132EF90D7923986FB6F22C1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6A69DC62D98D0961463C88898C41F7 /* Pods-FLTextFieldAutoCompleteExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F86878D3A728E7737A942810CFDDB80 /* FLTextFieldAutoComplete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B325C8E8C80AD405DB010CB088C34A21 /* Build configuration list for PBXNativeTarget "FLTextFieldAutoComplete" */;
+			buildPhases = (
+				C1352CF5E9CAF9AAFE37B34784214BED /* Sources */,
+				E816C26517AFDFFAAD9BC055E216BB3D /* Frameworks */,
+				D9247F9CB3CD4E55BB8A115B2C2CB574 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLTextFieldAutoComplete;
+			productName = FLTextFieldAutoComplete;
+			productReference = EEF401D8E0F780B5C905C023E09AB44F /* FLTextFieldAutoComplete.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6647B6C862073110CA1AA4B63242BFAD /* Pods-FLTextFieldAutoCompleteExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FBB752CAC3F0E63B06893270605FD83 /* Build configuration list for PBXNativeTarget "Pods-FLTextFieldAutoCompleteExample" */;
+			buildPhases = (
+				6A51B99DEB63D49DCF38B7AD2726408E /* Sources */,
+				84EA58A2EEA67D9885A6D5C57C6B6E3A /* Frameworks */,
+				F3D55A3D132EF90D7923986FB6F22C1F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DC80241A6DCCB3672374C8034103641 /* PBXTargetDependency */,
+			);
+			name = "Pods-FLTextFieldAutoCompleteExample";
+			productName = "Pods-FLTextFieldAutoCompleteExample";
+			productReference = 7C3A5ED3F2EDA72F2A5F4DB6C63D523B /* Pods_FLTextFieldAutoCompleteExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D125E7747D3282D0502504F1E4E23DD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F86878D3A728E7737A942810CFDDB80 /* FLTextFieldAutoComplete */,
+				6647B6C862073110CA1AA4B63242BFAD /* Pods-FLTextFieldAutoCompleteExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A51B99DEB63D49DCF38B7AD2726408E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0686A0180B49BBC4D037F6CA0FD6C965 /* Pods-FLTextFieldAutoCompleteExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1352CF5E9CAF9AAFE37B34784214BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9299D7143A7C22B0C6370418E5E802 /* FLTextFieldAutoComplete-dummy.m in Sources */,
+				312E8BF0EFB4CA01849A56A41190267C /* FLTextFieldAutoComplete.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DC80241A6DCCB3672374C8034103641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLTextFieldAutoComplete;
+			target = 1F86878D3A728E7737A942810CFDDB80 /* FLTextFieldAutoComplete */;
+			targetProxy = A491BBA19B7E05E01B0B9D2270312F17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B2C1E716E2E932A9C86C489D4AA18F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC931767840BEB902E490FA9897614A /* FLTextFieldAutoComplete.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLTextFieldAutoComplete/FLTextFieldAutoComplete-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLTextFieldAutoComplete/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLTextFieldAutoComplete/FLTextFieldAutoComplete.modulemap";
+				PRODUCT_NAME = FLTextFieldAutoComplete;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		875FE45D5D6BA5141E471A44DF0722F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1823BE0BEE45848BE5148AB611550C14 /* Pods-FLTextFieldAutoCompleteExample.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FLTextFieldAutoCompleteExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLTextFieldAutoCompleteExample/Pods-FLTextFieldAutoCompleteExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FLTextFieldAutoCompleteExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F0C05C73DDB8E0EEF065A97CFF23845E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC931767840BEB902E490FA9897614A /* FLTextFieldAutoComplete.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLTextFieldAutoComplete/FLTextFieldAutoComplete-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLTextFieldAutoComplete/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLTextFieldAutoComplete/FLTextFieldAutoComplete.modulemap";
+				PRODUCT_NAME = FLTextFieldAutoComplete;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD459A39949EAE9ABC29BD884B678F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14B492B7E82CCD44DABFDF5A36C5F3E0 /* Pods-FLTextFieldAutoCompleteExample.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FLTextFieldAutoCompleteExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLTextFieldAutoCompleteExample/Pods-FLTextFieldAutoCompleteExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FLTextFieldAutoCompleteExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FBB752CAC3F0E63B06893270605FD83 /* Build configuration list for PBXNativeTarget "Pods-FLTextFieldAutoCompleteExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875FE45D5D6BA5141E471A44DF0722F9 /* Debug */,
+				FD459A39949EAE9ABC29BD884B678F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B325C8E8C80AD405DB010CB088C34A21 /* Build configuration list for PBXNativeTarget "FLTextFieldAutoComplete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C05C73DDB8E0EEF065A97CFF23845E /* Debug */,
+				6B2C1E716E2E932A9C86C489D4AA18F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

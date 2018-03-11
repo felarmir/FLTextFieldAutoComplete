@@ -1,0 +1,6 @@
+framework module Pods_FLTextFieldAutoCompleteExample {
+  umbrella header "Pods-FLTextFieldAutoCompleteExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
