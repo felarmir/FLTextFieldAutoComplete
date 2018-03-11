@@ -1,3 +1,9 @@
+osx_image: xcode9
 language: objective-c
-xcode_project: Project/FLTextFieldAutoCompleteExample.xcworkspace
-xcode_scheme: FLTextFieldAutoCompleteExample
+
+script:
+- set -o pipefail && xcodebuild -project Project/FLTextFieldAutoCompleteExample.xcworkspace -scheme "FLTextFieldAutoCompleteExample" -sdk iphonesimulator -destination name="iPhone 8" clean build
+- set -o pipefail && xcodebuild -project Project/FLTextFieldAutoCompleteExample.xcworkspace -scheme "FLTextFieldAutoCompleteExample" -sdk iphonesimulator -destination name="iPhone 8" -enableCodeCoverage YES test
+
+notifications:
+email: false
