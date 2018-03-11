@@ -1,5 +1,7 @@
 # FLTextFieldAutoComplete
 
+[![CI Status](https://travis-ci.org/felarmir/FLTextFieldAutoComplete.svg?branch=master)](https://travis-ci.org/felarmir/FLTextFieldAutoComplete)
+
 ## Requirements
 
 - iOS 9.0+
