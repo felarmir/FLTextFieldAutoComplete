@@ -1,4 +1,4 @@
-#FLTextFieldAutoComplete
+# FLTextFieldAutoComplete
 
 ## Requirements
 
@@ -56,4 +56,4 @@ You can either configure FLTextView through Interface Builder (see examples) or 
 
 ## License
 
-FLTextFieldAutoComplete is available under the MIT license. See the [LICENSE](https://github.com/felarmir/FLTextFieldAutoComplete/LICENSE) file for more info.
+FLTextFieldAutoComplete is available under the MIT license. See the [LICENSE](https://github.com/felarmir/FLTextFieldAutoComplete/blob/master/LICENSE) file for more info.
