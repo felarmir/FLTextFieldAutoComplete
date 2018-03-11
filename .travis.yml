@@ -3,7 +3,6 @@ language: objective-c
 
 script:
 - set -o pipefail && xcodebuild -workspace Project/FLTextFieldAutoCompleteExample.xcworkspace -scheme "FLTextFieldAutoCompleteExample" -sdk iphonesimulator -destination name="iPhone 8" clean build
-- set -o pipefail && xcodebuild -workspace Project/FLTextFieldAutoCompleteExample.xcworkspace -scheme "FLTextFieldAutoCompleteExample" -sdk iphonesimulator -destination name="iPhone 8" -enableCodeCoverage YES test
 
 notifications:
 email: false
