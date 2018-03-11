@@ -39,14 +39,14 @@ You can either configure FLTextView through Interface Builder (see examples) or 
 
 @import FLTextFieldAutoComplete;
 ...
-@property (weak, nonatomic) IBOutlet FLTextFieldAutoComplete* <itemName>;
+@property (weak, nonatomic) IBOutlet FLTextFieldAutoComplete* сompleteField;
 ...
 
 // Array as data
-[self.<itemName> setStringsDataArray:<data array>];
+[self.сompleteField setStringsDataArray:<data array>];
 	
 // or block 
-[self.<itemName> setDataByBlock:^NSArray *(NSString *inputValue) {
+[self.сompleteField setDataByBlock:^NSArray *(NSString *inputValue) {
 	// some code and return result
 }];
 
