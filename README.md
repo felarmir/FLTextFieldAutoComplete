@@ -33,8 +33,6 @@ $ pod install
 
 ## Usage
 
-You can either configure FLTextFieldAutoComplete through Interface Builder (see examples) or use it like this:
-
 ```objc
 
 @import FLTextFieldAutoComplete;
