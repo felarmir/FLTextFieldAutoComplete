@@ -1,7 +1,7 @@
 # FLTextFieldAutoComplete
 
 [![CI Status](https://travis-ci.org/felarmir/FLTextFieldAutoComplete.svg?branch=master)](https://travis-ci.org/felarmir/FLTextFieldAutoComplete)
-[![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/FLTextFieldAutoComplete/badge.png)]()
+[![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/FLTextFieldAutoComplete/badge.png)](https://github.com/felarmir/FLTextFieldAutoComplete)
 
 ## Requirements
 
