@@ -18,7 +18,21 @@ typedef NSArray* (^SetDataBlock)(NSString* inputValue);
 @property IBInspectable UIColor *listTextColor;
 @property IBInspectable UIColor *listBackgroundColor;
 
+
+
+/**
+ Set data Array for autocomplete
+
+ @param data NSArray contains NSStrings
+ */
 - (void)setStringsDataArray:(NSArray<NSString*>*)data;
+
+
+/**
+ Set data by changing fir load from remote data source
+
+ @param dataBlock Block 
+ */
 - (void)setDataByBlock:(SetDataBlock)dataBlock;
 
 @end

@@ -33,9 +33,9 @@
 	self.delegate = self;
 	
 	firstBaselineView = [[[[UIApplication sharedApplication] keyWindow] rootViewController] view];
-	UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapForEndEditing:)];
-	[tap setCancelsTouchesInView:NO];
-	[firstBaselineView addGestureRecognizer:tap];
+	UITapGestureRecognizer *tapForEndEditing = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapForEndEditing:)];
+	[tapForEndEditing setCancelsTouchesInView:NO];
+	[firstBaselineView addGestureRecognizer:tapForEndEditing];
 }
 
 - (void)tapForEndEditing:(UITapGestureRecognizer*)sender {
