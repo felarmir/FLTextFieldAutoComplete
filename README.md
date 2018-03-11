@@ -22,7 +22,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '9.0'
 
-pod 'FLTextFieldAutoComplete', '~> 0.0.2'
+pod 'FLTextFieldAutoComplete'
 ```
 
 After editing your Podfile, run the following command:
