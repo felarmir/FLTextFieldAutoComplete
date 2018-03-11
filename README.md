@@ -33,7 +33,7 @@ $ pod install
 
 ## Usage
 
-You can either configure FLTextView through Interface Builder (see examples) or use it like this:
+You can either configure FLTextFieldAutoComplete through Interface Builder (see examples) or use it like this:
 
 ```objc
 
