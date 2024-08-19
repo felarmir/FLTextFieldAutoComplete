@@ -1,8 +1,0 @@
-osx_image: xcode14
-language: objective-c
-
-script:
-- set -o pipefail && xcodebuild -workspace Project/FLTextFieldAutoCompleteExample.xcworkspace -scheme "FLTextFieldAutoCompleteExample" -sdk iphonesimulator -destination name="iPhone 8" clean build
-
-notifications:
-email: false
